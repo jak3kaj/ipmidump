@@ -124,12 +124,11 @@ func itob(i int) *bool {
 	}
 }
 
-func Dump() *IPMIDump {
+func Dump() (*IPMIDump, error) {
 	// Open the default ipmi device using the u-root ipmi library
 	ipmi, err := ipmi.Open(0)
 	if err != nil {
-		//log.Fatal("Failed to open ipmi device: %v\n", err)
-		fmt.Printf("Failed to open ipmi device: %v\n", err)
+		return &IPMIDump{}, fmt.Errorf("Failed to open ipmi device: %v\n", err)
 	}
 	defer ipmi.Close()
 
@@ -297,6 +296,6 @@ func Dump() *IPMIDump {
 		&dev,
 		&fpb,
 		&lan,
-	}
+	}, nil
 
 }
