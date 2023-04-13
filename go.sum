@@ -3,8 +3,6 @@ github.com/google/goexpect v0.0.0-20191001010744-5b6988669ffa h1:PMkmJA8ju9DjqAJ
 github.com/google/goterm v0.0.0-20200907032337-555d40f16ae2 h1:CVuJwN34x4xM2aT4sIKhmeib40NeBPhRihNjQmpJsA4=
 github.com/hashicorp/errwrap v1.0.0 h1:hLrqtEDnRye3+sgx6z4qVLNuviH3MR5aQ0ykNJa/UYA=
 github.com/hashicorp/go-multierror v1.1.1 h1:H5DkEtf6CXdFp0N0Em5UCwQpXMWke8IA0+lD48awMYo=
-github.com/jak3kaj/ipmidump v0.0.0-20230412232831-f0ce35978326 h1:Ru65WJAGoHAURJMLZzpN0R3wZkcnUZYBjESQ8SKiFAE=
-github.com/jak3kaj/ipmidump v0.0.0-20230412232831-f0ce35978326/go.mod h1:ENKVmEJxsGh3GUxkUnUKq8SLNsHVY5ZkywoXeDwT3+s=
 github.com/pierrec/lz4/v4 v4.1.14 h1:+fL8AQEZtz/ijeNnpduH0bROTu0O3NZAlPjQxGn8LwE=
 github.com/u-root/gobusybox/src v0.0.0-20221229083637-46b2883a7f90 h1:zTk5683I9K62wtZ6eUa6vu6IWwVHXPnoKK5n2unAwv0=
 github.com/u-root/u-root v0.11.0 h1:6gCZLOeRyevw7gbTwMj3fKxnr9+yHFlgF3N7udUVNO8=
